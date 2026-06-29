@@ -1,0 +1,39 @@
+
+# Default value.
+field.value.digitalia_field_person_name:
+  type: mapping
+  label: Default value
+  mapping:
+    category:
+      type: string
+      label: Category
+    given_name:
+      type: string
+      label: Given name
+    family_name:
+      type: string
+      label: Family name
+    specification:
+      type: string
+      label: Specification
+    characteristics:
+      type: string
+      label: Characteristics
+    type:
+      type: string
+      label: Type
+    source:
+      type: text
+      label: Source
+    note:
+      type: text
+      label: Note
+
+# Field formatter.
+field.formatter.settings.digitalia_field_person_name_default:
+  type: mapping
+  label: Example formatter settings
+  mapping:
+    foo:
+      type: string
+      label: Foo

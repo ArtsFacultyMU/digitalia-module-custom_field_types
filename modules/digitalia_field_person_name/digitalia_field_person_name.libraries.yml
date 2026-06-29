@@ -1,0 +1,4 @@
+digitalia_field_person_name:
+  css:
+    component:
+      css/digitalia-field-person-name-widget.css: {}
