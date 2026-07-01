@@ -153,9 +153,8 @@ final class PersonNameItem extends FieldItemBase {
   public static function allowedCategoryValues(): array {
     // @todo Update allowed values.
     return [
-      'alpha' => t('Alpha'),
-      'beta' => t('Beta'),
-      'gamma' => t('Gamma'),
+      'preferred' => t('preferované jméno'),
+      'variant' => t('variantní jméno'),
     ];
   }
 
@@ -165,9 +164,9 @@ final class PersonNameItem extends FieldItemBase {
   public static function allowedCharacteristicsValues(): array {
     // @todo Update allowed values.
     return [
-      'alpha' => t('Alpha'),
-      'beta' => t('Beta'),
-      'gamma' => t('Gamma'),
+      'novodobe' => t('novodobé jméno'),
+      'prijmi' => t('příjmí'),
+      'pridomek' => t('přídomek'),
     ];
   }
 
@@ -177,9 +176,12 @@ final class PersonNameItem extends FieldItemBase {
   public static function allowedTypeValues(): array {
     // @todo Update allowed values.
     return [
-      'alpha' => t('Alpha'),
-      'beta' => t('Beta'),
-      'gamma' => t('Gamma'),
+      'vlastni_rodne' => t('vlastní/rodné jméno'),
+      'umelecke' => t('umělecké jméno (pseudonym)'),
+      'prijate' => t('přijaté jméno'),
+      'vyvdane' => t('vyvdané jméno'),
+      'radove' => t('řádové jméno'),
+      'alternativni' => t('alternativní jméno'),
     ];
   }
 
